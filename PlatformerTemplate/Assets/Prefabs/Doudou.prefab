@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 1698860518769068349}
   - component: {fileID: 1698860518769068337}
   m_Layer: 0
-  m_Name: Loulou
+  m_Name: Doudou
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -263,7 +263,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 52f75e246e9a0b84891778a35bf7167b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5725fcb76c7ce7f40967ae72c6765e0e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
