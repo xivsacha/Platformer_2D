@@ -292,6 +292,10 @@ PrefabInstance:
       propertyPath: _horizontalInputName
       value: Axe J1
       objectReference: {fileID: 0}
+    - target: {fileID: 1698860518769068337, guid: 4022a4d93c18e094781b3e7c7cd45561, type: 3}
+      propertyPath: m_GroundLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1698860518769068348, guid: 4022a4d93c18e094781b3e7c7cd45561, type: 3}
       propertyPath: m_GravityScale
       value: 1
@@ -457,6 +461,10 @@ PrefabInstance:
     - target: {fileID: 1698860518769068337, guid: 4022a4d93c18e094781b3e7c7cd45561, type: 3}
       propertyPath: _horizontalInputName
       value: Axe J2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1698860518769068337, guid: 4022a4d93c18e094781b3e7c7cd45561, type: 3}
+      propertyPath: m_GroundLayer.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1698860520001811652, guid: 4022a4d93c18e094781b3e7c7cd45561, type: 3}
       propertyPath: m_ClearFlags
