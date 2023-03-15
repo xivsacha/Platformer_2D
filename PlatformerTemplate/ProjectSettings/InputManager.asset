@@ -6,12 +6,12 @@ InputManager:
   serializedVersion: 2
   m_Axes:
   - serializedVersion: 3
-    m_Name: Horizontal
+    m_Name: Axe J1
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: left
-    positiveButton: right
-    altNegativeButton: q
+    negativeButton: a
+    positiveButton: d
+    altNegativeButton: a
     altPositiveButton: d
     gravity: 3
     dead: 0.001
