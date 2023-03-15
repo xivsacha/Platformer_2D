@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1698860520001811655}
   - component: {fileID: 1698860520001811652}
-  - component: {fileID: 1698860520001811653}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: Untagged
@@ -43,7 +42,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BackGroundColor: {r: 0.514151, g: 0.514151, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -76,14 +75,6 @@ Camera:
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &1698860520001811653
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1698860520001811650}
-  m_Enabled: 1
 --- !u!1 &5236404696537584152
 GameObject:
   m_ObjectHideFlags: 0
@@ -196,8 +187,8 @@ GameObject:
   - component: {fileID: 634879705739576994}
   - component: {fileID: 1698860518769068351}
   - component: {fileID: 1698860518769068348}
-  - component: {fileID: 1698860518769068349}
   - component: {fileID: 1698860518769068337}
+  - component: {fileID: 1256791669}
   m_Layer: 0
   m_Name: Doudou
   m_TagString: Player
@@ -295,22 +286,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!58 &1698860518769068349
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6865174486316547003}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!114 &1698860518769068337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,13 +298,83 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3bd220fce96470409e9d4790666019c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _horizontalInputName: 
-  _jumpKey: 32
+  _horizontalInputName: Axe J2
+  _jumpKey: 273
   m_GroundLayer:
     serializedVersion: 2
     m_Bits: 64
   m_JumpForce: 10
   m_MoveSpeed: 5
+--- !u!60 &1256791669
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6865174486316547003}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.29296875, y: -0.4453125}
+      - {x: 0.2890625, y: -0.328125}
+      - {x: 0.3203125, y: -0.25}
+      - {x: 0.3984375, y: -0.30078125}
+      - {x: 0.453125, y: -0.296875}
+      - {x: 0.484375, y: -0.28125}
+      - {x: 0.484375, y: -0.18359375}
+      - {x: 0.33984375, y: -0.1328125}
+      - {x: 0.4140625, y: -0.1328125}
+      - {x: 0.4140625, y: -0.0546875}
+      - {x: 0.3984375, y: 0.046875}
+      - {x: 0.36328125, y: 0.11328125}
+      - {x: 0.359375, y: 0.203125}
+      - {x: 0.34765625, y: 0.24609375}
+      - {x: 0.36328125, y: 0.328125}
+      - {x: 0.35546875, y: 0.40625}
+      - {x: 0.33984375, y: 0.43359375}
+      - {x: 0.23046875, y: 0.46875}
+      - {x: 0.14453125, y: 0.46875}
+      - {x: 0.10546875, y: 0.453125}
+      - {x: 0.09765625, y: 0.375}
+      - {x: -0.0078125, y: 0.36328125}
+      - {x: -0.234375, y: 0.29296875}
+      - {x: -0.265625, y: 0.23828125}
+      - {x: -0.2890625, y: 0.13671875}
+      - {x: -0.31640625, y: 0.078125}
+      - {x: -0.3203125, y: -0.03125}
+      - {x: -0.3203125, y: -0.12890625}
+      - {x: -0.3125, y: -0.13671875}
+      - {x: -0.29296875, y: -0.17578125}
+      - {x: -0.3828125, y: -0.23046875}
+      - {x: -0.40234375, y: -0.2421875}
+      - {x: -0.40234375, y: -0.30078125}
+      - {x: -0.390625, y: -0.328125}
+      - {x: -0.36328125, y: -0.328125}
+      - {x: -0.296875, y: -0.3203125}
+      - {x: -0.203125, y: -0.265625}
+      - {x: -0.21484375, y: -0.3984375}
+      - {x: -0.28515625, y: -0.3984375}
+      - {x: -0.296875, y: -0.4453125}
+      - {x: -0.28125, y: -0.44921875}
+      - {x: -0.0390625, y: -0.44921875}
+      - {x: -0.03125, y: -0.44140625}
+      - {x: -0.0078125, y: -0.44921875}
+      - {x: 0.2890625, y: -0.44921875}
 --- !u!1 &7547244155787812254
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,7 +441,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: J1
+  m_text: J2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -405,8 +450,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294901760
+  m_fontColor: {r: 0, g: 0, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
