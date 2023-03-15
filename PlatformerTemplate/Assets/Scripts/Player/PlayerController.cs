@@ -7,6 +7,12 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D _rigBod;
 
     [SerializeField]
+    private string _horizontalInputName;
+
+    [SerializeField]
+    private KeyCode _jumpKey = KeyCode.Space;
+
+    [SerializeField]
     private LayerMask m_GroundLayer;
 
     [SerializeField]
@@ -28,13 +34,13 @@ public class PlayerController : MonoBehaviour
     {
         if (Physics2D.Raycast(transform.position, Vector2.down, 1f, m_GroundLayer))
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(_jumpKey))
             {
                 _isJump = true;
             }
         }
 
-        _movement = Input.GetAxis("Horizontal");
+        _movement = Input.GetAxis(_horizontalInputName);
     }
 
     private void FixedUpdate()
