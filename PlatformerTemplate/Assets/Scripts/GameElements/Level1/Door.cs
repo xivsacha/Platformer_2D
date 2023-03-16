@@ -5,14 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField]
-    private int _sceneToLoad;
+
+    private bool _openCondition = false;
+
+    public void Open()
+    {
+        _openCondition = true;
+    }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<PlayerController>())
+        if (collision.GetComponent<PlayerController>() && _openCondition)
         {
-            SceneManager.LoadScene(_sceneToLoad);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
