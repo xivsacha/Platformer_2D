@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Menu_n1_manager : MonoBehaviour
+public class Menu_n2_manager : MonoBehaviour
 {
 
     public void Play()
@@ -18,6 +18,6 @@ public class Menu_n1_manager : MonoBehaviour
 
     public void Prev_Level()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }
