@@ -249,7 +249,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Niveau 2
+  m_text: Niveau 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -410,8 +410,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 754693130}
-        m_TargetAssemblyTypeName: Menu_n2_manager, Assembly-CSharp
+      - m_Target: {fileID: 754693132}
+        m_TargetAssemblyTypeName: Menu_n3_manager, Assembly-CSharp
         m_MethodName: Prev_Level
         m_Mode: 1
         m_Arguments:
@@ -556,7 +556,8 @@ GameObject:
   - component: {fileID: 754693128}
   - component: {fileID: 754693127}
   - component: {fileID: 754693126}
-  - component: {fileID: 754693130}
+  - component: {fileID: 754693131}
+  - component: {fileID: 754693132}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -649,7 +650,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &754693130
+--- !u!114 &754693131
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -658,7 +659,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 754693125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41737e8e6ed30af4189f96c6aef5d995, type: 3}
+  m_Script: {fileID: 11500000, guid: e238d0d4930194b41bfeb4cdcf6049b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &754693132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754693125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44c007aa81543e45adfa406659f24d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &782246911
@@ -745,8 +758,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 754693130}
-        m_TargetAssemblyTypeName: Menu_n2_manager, Assembly-CSharp
+      - m_Target: {fileID: 754693132}
+        m_TargetAssemblyTypeName: Menu_n3_manager, Assembly-CSharp
         m_MethodName: Next_Level
         m_Mode: 1
         m_Arguments:
@@ -1014,8 +1027,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Menu_n1_manager, Assembly-CSharp
+      - m_Target: {fileID: 754693132}
+        m_TargetAssemblyTypeName: Menu_n3_manager, Assembly-CSharp
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:

@@ -249,7 +249,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Niveau 2
+  m_text: Niveau 4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -557,6 +557,7 @@ GameObject:
   - component: {fileID: 754693127}
   - component: {fileID: 754693126}
   - component: {fileID: 754693130}
+  - component: {fileID: 754693131}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -661,6 +662,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41737e8e6ed30af4189f96c6aef5d995, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &754693131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754693125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ef2e23d557ac9242b2a494d68e8bc14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &782246911
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,7 +760,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 754693130}
         m_TargetAssemblyTypeName: Menu_n2_manager, Assembly-CSharp
-        m_MethodName: Next_Level
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
