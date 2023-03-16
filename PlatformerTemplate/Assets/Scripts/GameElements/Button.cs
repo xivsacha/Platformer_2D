@@ -7,7 +7,7 @@ public class Button : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<PlayerController>())
+        if (collision.GetComponent<PlayerController>() || collision.GetComponent<Caisse>())
         {
             SendMessage("Open");
         }
