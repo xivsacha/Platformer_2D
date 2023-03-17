@@ -53,9 +53,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 0.5
-    height: 1
+    y: 0.5
+    width: 1
+    height: 0.5
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -311,9 +311,10 @@ MonoBehaviour:
   _jumpKey: 32
   m_GroundLayer:
     serializedVersion: 2
-    m_Bits: 320
+    m_Bits: 832
   m_JumpForce: 10
   m_MoveSpeed: 5
+  spriteRenderer: {fileID: 0}
 --- !u!60 &1301232928
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -330,7 +331,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0.3359375, y: 0.58203125, z: 0.5625, w: 0.30078125}
-    pivot: {x: 0.44350287, y: 0.5697906}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5

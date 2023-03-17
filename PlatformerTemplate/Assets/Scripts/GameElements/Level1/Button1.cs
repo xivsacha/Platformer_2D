@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Button : MonoBehaviour
+public class Button1 : MonoBehaviour
 {
 
     public SpriteRenderer spriteRenderer;
@@ -19,8 +19,8 @@ public class Button : MonoBehaviour
         if (collision.GetComponent<PlayerController>() || collision.GetComponent<Caisse>())
         {
             GameObject objectB = GameObject.Find("Door");
-            objectB.SendMessage("Open");
-            Debug.Log("Button pressed");
+            objectB.SendMessage("Open1");
+            Debug.Log("Button1 pressed");
         }
     }
 

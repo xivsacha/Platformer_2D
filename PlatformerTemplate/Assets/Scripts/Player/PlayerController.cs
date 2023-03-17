@@ -24,25 +24,36 @@ public class PlayerController : MonoBehaviour
     private float _movement;
     private bool _isJump;
 
+    [SerializeField]
+    private SpriteRenderer spriteRenderer;
+
     private void Awake()
     {
         _rigBod = GetComponent<Rigidbody2D>();
+         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (Physics2D.Raycast(transform.position, Vector2.down, 1f, m_GroundLayer))
-        {
-            if (Input.GetKeyDown(_jumpKey))
-            {
-                _isJump = true;
-            }
-        }
+   void Update()
+{
+    _movement = Input.GetAxis(_horizontalInputName);
 
-        _movement = Input.GetAxis(_horizontalInputName);
+    if (Physics2D.Raycast(transform.position, Vector2.down, 1f, m_GroundLayer))
+    {
+        if (Input.GetKeyDown(_jumpKey))
+        {
+            _isJump = true;
+        }
     }
 
+    if (_movement > 0) {
+        spriteRenderer.flipX = true;
+    }
+    // Sinon, ne pas retourner le sprite
+    else {
+        spriteRenderer.flipX = false;
+    }
+}
     private void FixedUpdate()
     {
         if (_isJump)
