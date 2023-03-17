@@ -1068,6 +1068,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faadb0c886930a14396e21bbde1dfedd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!212 &1835166746 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3861309692115516350, guid: 2a460ca2ba5f2f44782c69617f96c293, type: 3}
+  m_PrefabInstance: {fileID: 1992040200}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1956801395
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1164,6 +1169,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2029772052604739895, guid: 2a460ca2ba5f2f44782c69617f96c293, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8bc2ecaacf8747042b15ad3e60b1fe16, type: 3}
+    - target: {fileID: 2029772052604739895, guid: 2a460ca2ba5f2f44782c69617f96c293, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1835166746}
     - target: {fileID: 3861309692115516321, guid: 2a460ca2ba5f2f44782c69617f96c293, type: 3}
       propertyPath: m_Name
       value: Door

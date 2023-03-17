@@ -46,6 +46,7 @@ public class Button_update : MonoBehaviour
         if (_isColliding > 0)
         {
             GameObject objectB = GameObject.Find("Door");
+            ChangeSprite();
             objectB.SendMessage("Open");
         }
 

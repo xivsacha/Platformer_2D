@@ -1014,8 +1014,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Menu_n1_manager, Assembly-CSharp
+      - m_Target: {fileID: 754693130}
+        m_TargetAssemblyTypeName: Menu_n2_manager, Assembly-CSharp
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:

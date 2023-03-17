@@ -1778,6 +1778,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   otherObject: {fileID: 1961447766}
+  spriteRenderer: {fileID: 868112091}
+  newSprite: {fileID: 21300000, guid: 49c70c1d7129d474492af961e6da94b0, type: 3}
 --- !u!1 &896542359
 GameObject:
   m_ObjectHideFlags: 0
@@ -3305,6 +3307,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0de8c640d3ddb4394866d775b9c79e46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 1626136443}
+  newSprite: {fileID: 21300000, guid: 8bc2ecaacf8747042b15ad3e60b1fe16, type: 3}
 --- !u!1 &1751174322
 GameObject:
   m_ObjectHideFlags: 0
