@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mur (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4778687665458719297, guid: c8b7456496c9de941a1dd65cca7a9774, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4778687665458719420, guid: c8b7456496c9de941a1dd65cca7a9774, type: 3}
       propertyPath: m_Size.x
       value: 12
@@ -1208,6 +1212,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2945003026606806409, guid: 9a40576299d1f2e418da2664feb779bf, type: 3}
+      propertyPath: m_Size.x
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2945003026606806409, guid: 9a40576299d1f2e418da2664feb779bf, type: 3}
+      propertyPath: m_Size.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2945003026606806409, guid: 9a40576299d1f2e418da2664feb779bf, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2945003026606806409, guid: 9a40576299d1f2e418da2664feb779bf, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2945003026606806410, guid: 9a40576299d1f2e418da2664feb779bf, type: 3}
       propertyPath: m_Name
       value: Platforme (2)
