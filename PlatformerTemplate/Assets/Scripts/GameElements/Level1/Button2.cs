@@ -20,6 +20,7 @@ public class Button2 : MonoBehaviour
         {
             GameObject objectB = GameObject.Find("Door");
             objectB.SendMessage("Open2");
+            ChangeSprite();
             Debug.Log("Button2 pressed");
         }
     }

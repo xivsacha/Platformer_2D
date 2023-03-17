@@ -208,6 +208,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a40576299d1f2e418da2664feb779bf, type: 3}
+--- !u!1 &637641687 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4128722357908173284, guid: 6f9113f013eb3094dab94465f39d2d8c, type: 3}
+  m_PrefabInstance: {fileID: 1171497731}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &637641690 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4128722357908173282, guid: 6f9113f013eb3094dab94465f39d2d8c, type: 3}
+  m_PrefabInstance: {fileID: 1171497731}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &637641692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637641687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e5576801c09c74d83afaa3d7cf28de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 637641690}
+  newSprite: {fileID: 21300000, guid: 49c70c1d7129d474492af961e6da94b0, type: 3}
 --- !u!1001 &674599263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1022,9 +1046,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4128722357908173284, guid: 6f9113f013eb3094dab94465f39d2d8c, type: 3}
       propertyPath: m_Name
-      value: "Bouton_reste_appuy\xE9"
+      value: Bouton
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4128722357908173280, guid: 6f9113f013eb3094dab94465f39d2d8c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6f9113f013eb3094dab94465f39d2d8c, type: 3}
 --- !u!1 &1610854453 stripped
 GameObject:

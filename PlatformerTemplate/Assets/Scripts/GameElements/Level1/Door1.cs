@@ -8,6 +8,13 @@ public class Door1 : MonoBehaviour
 
     private bool _openCondition1 = false;
     private bool _openCondition2 = false;
+    public SpriteRenderer spriteRenderer;
+    public Sprite newSprite;
+
+    void ChangeSprite()
+    {
+        spriteRenderer.sprite = newSprite; 
+    }
 
     void Open1()
     {
@@ -25,6 +32,14 @@ public class Door1 : MonoBehaviour
         if (collision.GetComponent<PlayerController>() && _openCondition1 && _openCondition2)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+    }
+
+    void Update()
+    {
+        if (_openCondition1 && _openCondition2)
+        {
+            ChangeSprite();
         }
     }
 }
