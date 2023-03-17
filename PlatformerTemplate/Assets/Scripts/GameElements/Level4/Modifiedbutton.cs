@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class Modifiedbutton : MonoBehaviour
 {
-    public GameObject objectToDisappear;
+    public GameObject scriptToDisable;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.GetComponent<PlayerController>())
         {
-            objectToDisappear.SetActive(false);
+            scriptToDisable.enabled = false;
         }
     }
 }
