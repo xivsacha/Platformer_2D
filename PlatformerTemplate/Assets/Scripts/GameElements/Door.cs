@@ -8,7 +8,7 @@ public class Door : MonoBehaviour
 
     private bool _openCondition = false;
 
-    public void Open()
+    void Open()
     {
         _openCondition = true;
     }

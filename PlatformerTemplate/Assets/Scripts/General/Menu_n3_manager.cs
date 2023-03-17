@@ -8,7 +8,7 @@ public class Menu_n3_manager : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(7);
     }
 
     public void Next_Level()
