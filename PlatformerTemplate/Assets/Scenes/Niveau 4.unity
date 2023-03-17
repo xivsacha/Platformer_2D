@@ -1104,8 +1104,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397182251}
   m_LocalRotation: {x: -0, y: -0, z: -0.99999994, w: 0.00037996983}
-  m_LocalPosition: {x: 7.82, y: -6.49, z: 0}
-  m_LocalScale: {x: 2.0556467, y: 0.81092465, z: 1}
+  m_LocalPosition: {x: 7.0134, y: -8.3366, z: 0}
+  m_LocalScale: {x: 1.7363456, y: 1.7045357, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2071,7 +2071,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2153,7 +2153,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 868112088}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.985, y: -3.915, z: 0}
+  m_LocalPosition: {x: 7.994, y: -3.464, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2172,7 +2172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fa2fea9a67c04b749cc554a16f08007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptToDisable: {fileID: 868112093}
+  otherObject: {fileID: 221262411}
 --- !u!1 &895914934
 GameObject:
   m_ObjectHideFlags: 0
@@ -2867,8 +2867,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626136439}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.23, y: -4.76, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 14.9543, y: -5.1443, z: 0}
+  m_LocalScale: {x: 1.5513, y: 1.7685, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

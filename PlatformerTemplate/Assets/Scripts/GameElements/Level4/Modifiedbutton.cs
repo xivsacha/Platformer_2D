@@ -5,13 +5,14 @@ using UnityEngine;
 
 public class Modifiedbutton : MonoBehaviour
 {
-    public MonoBehaviour scriptToDisable;
+    public GameObject otherObject;
 
     private void OnTriggerEnter2D(Collider2D collision)
+{
+    if (collision.GetComponent<PlayerController>())
     {
-        if (collision.GetComponent<PlayerController>())
-        {
-            scriptToDisable.enabled = false;
-        }
+        // Détruit complètement l'objet "laser"
+        Destroy(otherObject);
     }
+}
 }
