@@ -98,6 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c87424a39e509ef42a714cc59b44061a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 4128722357908173282}
+  newSprite: {fileID: 21300000, guid: 49c70c1d7129d474492af961e6da94b0, type: 3}
 --- !u!60 &4128722357908173281
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -108,7 +110,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

@@ -8,7 +8,7 @@ public class Menu_n2_manager : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(6);
     }
 
     public void Next_Level()
