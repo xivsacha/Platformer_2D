@@ -7,12 +7,23 @@ public class Modifiedbutton : MonoBehaviour
 {
     public GameObject otherObject;
 
-    private void OnTriggerEnter2D(Collider2D collision)
-{
-    if (collision.GetComponent<PlayerController>())
+    public SpriteRenderer spriteRenderer;
+    public Sprite newSprite;
+
+    void ChangeSprite()
     {
-        // Détruit complètement l'objet "laser"
-        Destroy(otherObject);
+        spriteRenderer.sprite = newSprite; 
     }
-}
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.GetComponent<PlayerController>())
+        {
+            // Détruit complètement l'objet "laser"
+            Destroy(otherObject);
+            ChangeSprite();
+            GameObject objectB = GameObject.Find("Door");
+            objectB.SendMessage("Open");
+        }
+    }
 }
