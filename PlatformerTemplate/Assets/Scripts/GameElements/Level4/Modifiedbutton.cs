@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Modifiedbutton : MonoBehaviour
 {
-    public GameObject scriptToDisable;
+    public MonoBehaviour scriptToDisable;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
